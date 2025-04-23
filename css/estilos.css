@@ -1,0 +1,102 @@
+body {
+  font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+  width: 65%;
+  margin-left: 9%;
+  margin-right: 25%;
+  margin-top: 0%;
+    }
+
+  .posicion {
+  text-align: center;
+  }
+    
+button {
+color: rgb(181, 12, 12);
+display: inline-block;
+background-color: white;
+margin: 0 auto;
+margin-left: 50px;
+margin-right: 50px;
+padding: 5px;
+border: 2px solid rgb(181, 12, 12);
+font-variant:small-caps;
+border-radius: 9px;
+}
+
+    h1 {
+    color: #69ace7;
+    text-align: center;
+    text-shadow: black 1px 1px;
+    }
+
+    .cajones {
+    background-color: white;
+    }
+
+    p {
+    text-align: justify;
+    }
+
+    h2 {
+    background-color:  rgb(181, 12, 12);
+    color: white;
+    text-align: center;
+    }
+
+    h3 {
+      color: #69ace7;
+      text-align: left;
+      text-shadow: black 0px 0px 0.5px;
+      }
+
+      ul {
+        list-style-type: none;  /* Oculta las viñetas estándar */
+      }
+      
+      ul li::before {
+        content: "★ ";         /* Reemplaza la viñeta con un símbolo */
+        color: #f4a261;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 8px;
+      }
+      
+      ul li:hover::before {
+        color: #2a9d8f;      /* Nuevo color cuando se pasa el ratón */
+    }
+
+    .caja1 {
+    background-color: white;
+    color: black;
+    withd: 60%;
+    margin: 20px; 30px; 40px; 10px;
+    margin: auto;
+    padding: 1em;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: black 2px solid;
+    border-left: black 2px solid;
+    border-bottom: rgb(211, 32, 32) 2px solid;
+    border-right:  2px solid;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    }
+
+    
+    a[href^=mailto]::after {
+    content: url(../img/sobre.jpg);
+    }
+    
+    a[href^="tel"]::before {
+      content: url(../img/telefono.jpg);
+    }
+    
+    a[target="_blank"]::after{
+      content: url(../img/abrir.png); 
+    }
+
+
+    
