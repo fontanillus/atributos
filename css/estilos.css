@@ -87,11 +87,11 @@ border-radius: 9px;
 
     
     a[href^=mailto]::after {
-    content: url(../img/sobre.jpg);
+    content: url(../img/sobre.png);
     }
     
     a[href^="tel"]::before {
-      content: url(../img/telefono.jpg);
+      content: url(../img/telefono.png);
     }
     
     a[target="_blank"]::after{
