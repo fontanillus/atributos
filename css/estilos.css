@@ -24,6 +24,11 @@ font-variant:small-caps;
 border-radius: 9px;
 }
 
+button:hover {
+background: rgb(181, 12, 12);
+color: white;
+}
+
     h1 {
     color: #69ace7;
     text-align: center;
